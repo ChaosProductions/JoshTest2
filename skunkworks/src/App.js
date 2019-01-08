@@ -8,7 +8,7 @@ class App extends Component {
       <div className="App">
         <div className="tooltip">
           Account Name
-          <span className="tooltiptext">Is the name, ya goof</span>
+          <span className="tooltiptext">Is the name, ya goof2</span>
         </div>
 
         <header className="App-header">
