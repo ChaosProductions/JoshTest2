@@ -1,15 +1,16 @@
 .App {
   text-align: center;
+  font-family: "georgia";
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 25vmin;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +23,13 @@
   color: #61dafb;
 }
 
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -29,7 +37,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-.Table {
-  text-align: left;
 }
